@@ -1,0 +1,88 @@
+.header{
+	background-image: url(../img/aul2.jpg);
+	background-repeat: no-repeat;		
+	height: 140px;
+	width: 100%;
+}
+
+.menubar ul{
+	background-color:#10042b;
+	width: 100%;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+}
+.menubar li{
+	float: left;
+}
+.menubar li a{
+	display: block;
+	text-align: center;
+	padding: 20px 15px;
+	text-decoration: none;
+	font-family: arial;
+	color: white;
+}
+.menubar li a:hover{
+	background-color:white;
+	color:white;
+}
+
+.menu1 ul{
+	background-color:#FF94D1;
+	width: 15%;
+	height: 400px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	color: black;
+	float: left;
+}
+.menu1 li a{
+	display: block;
+	text-decoration: none;
+	font-family: arial;
+	padding: 10px 18px;
+}
+.menu1 li a:hover{
+	background-color #b5294b;
+}
+.menu1 li a:visited{
+	color:white;
+}
+
+.menu2{
+	background-color:#FFB1DD;
+	width: 60%;
+	height: 400px;
+	float: left;
+	
+}
+.menu3{
+	background-color:#FF94D1;
+	width: 25%;
+	height: 400px;
+	float: left;
+	margin-bottom: -30px;
+}
+.menu3 p{
+	font-family: arial;
+}
+
+.footer{
+	background-image: url(../img/aulia3.jpg);
+	width: 99%;
+	height: 70px;
+	bottom: 0px;
+	position: absolute;
+	margin-bottom: 1px;
+	padding: 0;
+	overflow: hidden;
+}
+.footer p{
+	color: white;
+	text-align: center;
+	padding: -15px 0 10px 5px;
+}``

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GUEST BOOK</title>
+	<script type="text/javascript" src="js/aul.js"></script>
+</head>
+<body background="img/aaa.jpg">
+ 
+   <div class="container">		
+   <div align="center"><strong><font color="black" size="20" face="geramond, gill sans, cambria">FORM PENDAFTARAN </font></strong></div>
+<form action="proses.php" method="post" enctype="multipart/form-data" onsubmit="confirm()">
+  <div class="form-group">
+    <label for="nama" ><font color="black">Nama Peserta:</font></label>
+    <input type="text" name="nama" class="form-control" id="nama">
+  </div>
+  <div class="form-group">
+    <label for="alamat"><font color="black">Tanggal Lahir :</font></label>
+    <input type="text" name="tanggal" class="form-control" id="alamat">
+  </div>
+  <div class="form-group">
+    <label for="alamat"><font color="black">Alamat :</font></label>
+    <input type="text" name="alamat" class="form-control" id="alamat">
+  </div>
+  <div class="form-group">
+    <label for="alamat"><font color="black">Asal Sekolah :</font></label>
+    <input type="text" name="asal" class="form-control" id="alamat">
+  </div>
+  <div class="form-group">
+    <label for="alamat"><font color="black">Pas Foto :</font></label>
+    <input type="file" name="file">
+  </div>
+  <br>
+    <button type="submit" name="Submit" class="btn btn-primary">Submit</button>
+    <button type="reset" name="Submit2" class="btn btn-danger">Reset</button>
+</form>
+   </div>
+ 
+</body>
+</html>
